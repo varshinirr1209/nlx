@@ -21,14 +21,6 @@
             "title": "Support",
             "downloadable": false
           },
-          // CUSTOM BEHAVIOR SNIPPET
-          onExpand: () => {
-            const conversationHandler = widget.getConversationHandler();
-            if (conversationHandler) {
-              conversationHandler.sendWelcomeIntent();
-            }
-          },
-          // CUSTOM BEHAVIOR SNIPPET END
           theme: {
             "primaryColor": "#2663da",
             "darkMessageColor": "#2663da",
