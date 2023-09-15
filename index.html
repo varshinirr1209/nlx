@@ -1,11 +1,32 @@
-<!-- Standalone chat widget sample HTML -->
-<!-- Downloaded from https://nlxai.github.io/chat-sdk -->
 <html lang="en">
   <head>
     <title>NLX Widget Sample HTML</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          background-color: #f4f4f4;
+      }
+      header {
+          background-color: blue;
+          padding: 10px 0; 
+          display: flex; /* Use flexbox for layout */
+          align-items: center; /* Center the logo vertically */
+          justify-content: flex-start; /* Align the logo to the left */
+      }
+      .banner {
+          width: 25%; /* Adjust to desired size */
+          max-width: 25%; /* Adjust to desired size */
+      }
+  </style>
   </head>
   <body>
+      <header>
+          <img src="Connx-white-logo.png" alt="Banner Image" class="banner">
+      </header>
     <script defer src="https://unpkg.com/@nlxchat/widget@2.0.0-alpha.1/lib/umd/index.js"></script>
     <script>
       window.addEventListener("DOMContentLoaded", () => {
